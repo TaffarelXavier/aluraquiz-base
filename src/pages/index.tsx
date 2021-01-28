@@ -17,12 +17,12 @@ export const QuizContainer = styled.div`
     padding: 15px;
   }
 `
-
+//metastags.io
 const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Homepage</title>
+        <title>Quizzes - Seu quiz favorito</title>
       </Head>
       <BackgroundImage backgroundImage={db.bg}>
         <QuizContainer>
