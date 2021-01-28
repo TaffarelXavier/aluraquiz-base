@@ -22,7 +22,24 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Quizzes - Seu quiz favorito</title>
+
+        <title>Aluraquizzes - Seu quiz favorito</title>
+        <meta name="title" content="Aluraquizzes - Seu quiz favorito" />
+        <meta name="description" content="Um projeto criado com amor durante a imersão React V2 (Com Typescript)" />
+
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aluraquizzes.vercel.app/c" />
+        <meta property="og:title" content="Aluraquizzes - Seu quiz favorito" />
+        <meta property="og:description" content="Um projeto criado com amor durante a imersão React V2 (Com Typescript)" />
+        <meta property="og:image" content="https://aluraquizzes.vercel.app/img/logo-alura.png" />
+
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://aluraquizzes.vercel.app/c" />
+        <meta property="twitter:title" content="Aluraquizzes - Seu quiz favorito" />
+        <meta property="twitter:description" content="Um projeto criado com amor durante a imersão React V2 (Com Typescript)" />
+        <meta property="twitter:image" content="https://aluraquizzes.vercel.app/img/logo-alura.png" />
       </Head>
       <BackgroundImage backgroundImage={db.bg}>
         <QuizContainer>
