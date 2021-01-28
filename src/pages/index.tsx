@@ -61,7 +61,7 @@ const Home: React.FC = () => {
           </Widget>
           <Footer />
         </QuizContainer>
-        <GitHubCorner projectUrl="https://github.com/TaffarelXavier" />
+        <GitHubCorner projectUrl="https://github.com/TaffarelXavier/aluraquiz-base" />
       </BackgroundImage>
     </>
   )
