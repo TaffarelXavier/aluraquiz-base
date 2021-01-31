@@ -33,8 +33,8 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Aluraquizzes - Seu quiz favorito</title>
-        <meta name="title" content="Aluraquizzes - Seu quiz favorito" />
+        <title>Typescript Quiz | Imersão Alura</title>
+        <meta name="title" content="Typescript Quiz | Imersão Alura" />
         <meta
           name="description"
           content="Um projeto criado com amor durante a imersão React V2 (Com Typescript)"
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://typescriptquiz.vercel.app" />
-        <meta property="og:title" content="Aluraquizzes - Seu quiz favorito" />
+        <meta property="og:title" content="Typescript Quiz | Imersão Alura" />
         <meta
           property="og:description"
           content="Um projeto criado com amor durante a imersão React V2 (Com Typescript)"
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
         />
         <meta
           property="twitter:title"
-          content="Aluraquizzes - Seu quiz favorito"
+          content="Typescript Quiz | Imersão Alura"
         />
         <meta
           property="twitter:description"
