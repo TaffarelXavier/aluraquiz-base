@@ -21,6 +21,202 @@
       "description": "Qual a forma antiga de trabalhar com AJAX na Web?",
       "answer": 2,
       "alternatives": ["C#", "Java", "JavaScript", "ReactJS"]
+    },
+    {
+      "image": "https://media.giphy.com/media/3oEjHWbXcpeKhTktXi/giphy.gif",
+      "title": "Um Arquivo TypeScript é compilado em ________.",
+      "description": "Qual a forma antiga de trabalhar com AJAX na Web?",
+      "answer": 0,
+      "alternatives": [
+        "JavaScript",
+        "VBScript",
+        "TypeScript",
+        "None of the above"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "O TypeScript pode ser usado para escrever aplicativos do lado do servidor e do lado do cliente.",
+      "description": "Qual a forma antiga de trabalhar com AJAX na Web?",
+      "answer": 0,
+      "alternatives": ["Verdade", "Falso", "Não se aplica", "N.D.A"]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "O comando __________ é usado para gerar um arquivo JavaScript a partir de um arquivo TypeScript.",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+        "npm filename.ts",
+        "tsc fileName.ts",
+        "tsc -js fileName.ts",
+        "All of the above"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual das seguintes declarações declara uma variável no TypeScript?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "var myVar = 123;",
+        "var myVar:number = 123;",
+        "let myVar:number = 123;",
+        "Todas as alternativas"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Quais dos seguintes são tipos primitivos com suporte no TypeScript?",
+      "description": "",
+      "answer": 3,
+      "alternatives": ["number", "string", "boolean", "Todas as alternativas"]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual das seguintes é uma variável de tipo de união válida?",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+        "var emp:[number, string] = [1, \"Steve\"];",
+        "var emp:(number|string) = 123;",
+        "var emp:string[] = [\"Bill\"]",
+        "Nenhuma das alternativas"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual das opções a seguir é uma tupla válida?",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+        "var employee:[number, string] = [1, \"Bill\"]",
+        "var employee:(number|string) = 123;",
+        "var employee = [1, \"Bill\"];",
+        "Nenhuma das alternativas"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Um 'Type', no TypeScript, é obtido usando qual das seguintes sintaxes?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "Usando <type> syntax",
+        "Usando 'as' palavra chave syntax",
+        "Ambos A and B",
+        "Nenhuma das alternativas"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual será a saída do seguinte trecho de código?\n\nlet arr = [10, 20, 30, 40];\n      for(var val of arr) {\n\n  console.log(val);\n  }",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+        "prints 0, 1, 2, 3",
+        "prints 10, 20, 30, 40",
+        "prints undefined",
+        "Compiler error"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual das opções a seguir é uma função de seta válida?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "let sum(): (x: number, y: number):number => x + y;",
+        "let sum = (x: number, y: number) => return x + y;",
+        "let sum:(x: number, y: number) => x + y;",
+        "let sum = (x: number, y: number) => x + y;"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "O parâmetro 'rest' em uma função é usado ​​quando _______.",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "Os tipos de parâmetros não são conhecidos",
+        "A função precisa ser executada de forma assíncrona",
+        "A função é chamada recursivamente",
+        "O número de parâmetros não é conhecido"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual das afirmações a seguir é VERDADEIRA?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "Uma interface pode estender uma classe em TypeScript.",
+        "A interface TypeScript não gera nenhum código JavaScript.",
+        "Uma interface pode estender outra interface em TypeScript.",
+        "Tudo acima"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Quais das opções a seguir são modificadores de dados válidos no TypeScript?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "private",
+        "protected",
+        "public",
+        "Todas as alternativas"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual das seguintes palavras-chaves é usada para declarar um módulo?",
+      "description": "",
+      "answer": 0,
+      "alternatives": ["export", "namespace", "type", "declare"]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual dos itens a seguir declara um namespace?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "ns test { }",
+        "A & B both",
+        "namespace test{ }",
+        "export test(){ }"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual dos seguintes comandos é usado para compilar um módulo?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "tsc --module amd mymodule.ts",
+        "tsc -m amd mymodule.ts",
+        "ambos, A e B",
+        "Nenhuma das alternativas"
+      ]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual arquivo de configuração é necessário para compilar todo o projeto TypeScript?",
+      "description": "",
+      "answer": 1,
+      "alternatives": ["tsconfig.js", "tsconfig.json", "web.config", "app.json"]
+    },
+    {
+      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "title": "Qual das afirmações a seguir é VERDADEIRA?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "TypeScript oferece suporte a genéricos.",
+        "TypeScript oferece suporte a membros somente leitura e estáticos.",
+        "TypeScript oferece suporte a classes abstratas.",
+        "Todas as alternativas."
+      ]
     }
   ],
   "external": [
