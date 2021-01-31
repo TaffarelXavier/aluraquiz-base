@@ -12,7 +12,7 @@ import db from '../db.json'
 import { NextPage } from 'next'
 import Divider from '../components/Divider'
 import QuizLogo from '../components/QuizLogo'
-import WrittenNumber from '../../utils/js-written-number'
+import WrittenNumber from '../../utils/written-number'
 
 const QuizPage: NextPage = () => {
   const totalQuestions = db.questions.length

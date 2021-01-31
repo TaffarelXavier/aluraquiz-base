@@ -93,7 +93,7 @@ const QuestionWidget: NextPage<IQuestionInput> = ({
                 onSubmit(ev)
                 setIsQuestionSubmited(false)
                 setSelectedAlternative(-1)
-              }, 1 * 100)
+              }, 1 * 3000)
             }}
           >
             <p style={{ fontSize: '1.3rem', lineHeight: '130%' }}>
