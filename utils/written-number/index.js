@@ -1,4 +1,16 @@
-import util from './util'
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+const util = {
+  defaults(target, defs) {
+    if (target == null) target = {}
+    var ret = {}
+    var keys = Object.keys(defs)
+    for (var i = 0, len = keys.length; i < len; i++) {
+      var key = keys[i]
+      ret[key] = target[key] || defs[key]
+    }
+    return ret
+  }
+}
 
 const i18n = {
   useLongScale: false,
@@ -165,9 +177,9 @@ function writtenNumber(n, options) {
     units = []
     scale = Object.keys(rawUnits)
 
-    for (var i in scale) {
-      units.push(rawUnits[scale[i]])
-      scale[i] = Math.pow(10, parseInt(scale[i]))
+    for (var index in scale) {
+      units.push(rawUnits[scale[index]])
+      scale[index] = Math.pow(10, parseInt(scale[index]))
     }
   }
 
@@ -179,7 +191,8 @@ function writtenNumber(n, options) {
   if (language.unitExceptions[n]) return language.unitExceptions[n]
   if (alternativeBaseCardinals[n]) return alternativeBaseCardinals[n]
   if (baseCardinals[n]) return baseCardinals[n]
-  if (n < 100)
+
+  if (n < 100) {
     return handleSmallerThan100(
       n,
       language,
@@ -188,6 +201,7 @@ function writtenNumber(n, options) {
       alternativeBaseCardinals,
       options
     )
+  }
 
   var m = n % 100
   var ret = []
@@ -205,29 +219,30 @@ function writtenNumber(n, options) {
 
   var firstSignificant
 
-  for (var i = 0, len = units.length; i < len; i++) {
-    var r = Math.floor(n / scale[i])
+  for (let index = 0, len = units.length; index < len; index++) {
+    var r = Math.floor(n / scale[index])
     var divideBy
 
-    if (i === len - 1) divideBy = 1000000
-    else divideBy = scale[i + 1] / scale[i]
+    if (index === len - 1) divideBy = 1000000
+    else divideBy = scale[index + 1] / scale[index]
 
     r %= divideBy
 
-    unit = units[i]
+    unit = units[index]
 
     if (!r) continue
-    firstSignificant = scale[i]
+    firstSignificant = scale[index]
 
     if (unit.useBaseInstead) {
       var shouldUseBaseException =
         unit.useBaseException.indexOf(r) > -1 &&
         (unit.useBaseExceptionWhenNoTrailingNumbers
-          ? i === 0 && ret.length
+          ? index === 0 && ret.length
           : true)
       if (!shouldUseBaseException) {
         ret.push(
-          alternativeBaseCardinals[r * scale[i]] || baseCardinals[r * scale[i]]
+          alternativeBaseCardinals[r * scale[index]] ||
+            baseCardinals[r * scale[index]]
         )
       } else {
         ret.push(r > 1 && unit.plural ? unit.plural : unit.singular)
@@ -293,7 +308,7 @@ function writtenNumber(n, options) {
           options
         )
       )
-    n -= r * scale[i]
+    n -= r * scale[index]
     ret.push(number + ' ' + str)
   }
 
@@ -303,7 +318,7 @@ function writtenNumber(n, options) {
   if (
     language.andWhenTrailing &&
     firstSignificant &&
-    0 < rest &&
+    rest > 0 &&
     ret[0].indexOf(language.unitSeparator) !== 0
   ) {
     ret = [ret[0], language.unitSeparator.replace(/\s+$/, '')].concat(
@@ -341,4 +356,3 @@ function handleSmallerThan100(
 }
 
 export default writtenNumber
-// console.log(writtenNumber(1234000)) // => 'one thousand two hundred and thirty-four'
