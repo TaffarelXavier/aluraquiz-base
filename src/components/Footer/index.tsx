@@ -2,7 +2,6 @@
 import styled from 'styled-components'
 import { NextPage } from 'next'
 
-// src/components/Footer/index.js
 const FooterWrapper = styled.footer`
   background-color: #00000070;
   padding: 20px;
@@ -26,7 +25,6 @@ const FooterWrapper = styled.footer`
     }
   }
 `
-// interface IFooter {}
 
 const Footer: NextPage = () => {
   return (
