@@ -41,7 +41,7 @@ const Home: React.FC = () => {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://aluraquizzes.vercel.app/c" />
+        <meta property="og:url" content="https://typescriptquiz.vercel.app" />
         <meta property="og:title" content="Aluraquizzes - Seu quiz favorito" />
         <meta
           property="og:description"
@@ -49,13 +49,13 @@ const Home: React.FC = () => {
         />
         <meta
           property="og:image"
-          content="https://aluraquizzes.vercel.app/img/logo-alura.png"
+          content="https://typescriptquiz.vercel.app/img/logo-alura.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://aluraquizzes.vercel.app/c"
+          content="https://typescriptquiz.vercel.app/c"
         />
         <meta
           property="twitter:title"
@@ -67,7 +67,7 @@ const Home: React.FC = () => {
         />
         <meta
           property="twitter:image"
-          content="https://aluraquizzes.vercel.app/img/logo-alura.png"
+          content="https://typescriptquiz.vercel.app/img/logo-alura.png"
         />
       </Head>
       <BackgroundImage backgroundImage={db.bg}>
@@ -91,9 +91,7 @@ const Home: React.FC = () => {
                 disabled={name?.name.value.length == 0}
               >
                 Jogar{' '}
-                {Boolean(name?.name.value.trim().length)
-                  ? `[${name?.name.value}]`
-                  : ''}
+                {name?.name.value.trim().length ? `[${name?.name.value}]` : ''}
               </Button>
             </form>
           </LoadingScreen>
