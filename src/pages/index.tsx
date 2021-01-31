@@ -33,33 +33,33 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Aluraquizzes - Seu quiz favorito</title>
-        <meta name="title" content="Aluraquizzes - Seu quiz favorito" />
+        <title>Typescript Quiz | Imersão Alura</title>
+        <meta name="title" content="Typescript Quiz | Imersão Alura" />
         <meta
           name="description"
           content="Um projeto criado com amor durante a imersão React V2 (Com Typescript)"
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://aluraquizzes.vercel.app/c" />
-        <meta property="og:title" content="Aluraquizzes - Seu quiz favorito" />
+        <meta property="og:url" content="https://typescriptquiz.vercel.app" />
+        <meta property="og:title" content="Typescript Quiz | Imersão Alura" />
         <meta
           property="og:description"
           content="Um projeto criado com amor durante a imersão React V2 (Com Typescript)"
         />
         <meta
           property="og:image"
-          content="https://aluraquizzes.vercel.app/img/logo-alura.png"
+          content="https://typescriptquiz.vercel.app/img/logo-alura.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://aluraquizzes.vercel.app/c"
+          content="https://typescriptquiz.vercel.app/c"
         />
         <meta
           property="twitter:title"
-          content="Aluraquizzes - Seu quiz favorito"
+          content="Typescript Quiz | Imersão Alura"
         />
         <meta
           property="twitter:description"
@@ -67,7 +67,7 @@ const Home: React.FC = () => {
         />
         <meta
           property="twitter:image"
-          content="https://aluraquizzes.vercel.app/img/logo-alura.png"
+          content="https://typescriptquiz.vercel.app/img/logo-alura.png"
         />
       </Head>
       <BackgroundImage backgroundImage={db.bg}>
@@ -91,9 +91,7 @@ const Home: React.FC = () => {
                 disabled={name?.name.value.length == 0}
               >
                 Jogar{' '}
-                {Boolean(name?.name.value.trim().length)
-                  ? `[${name?.name.value}]`
-                  : ''}
+                {name?.name.value.trim().length ? `[${name?.name.value}]` : ''}
               </Button>
             </form>
           </LoadingScreen>
