@@ -1,29 +1,6 @@
-{
-  "bg": "https://miro.medium.com/max/4000/1*SSo_VpLEJ49WTi_ubpTVGQ.png",
-  "title": "Typescript Quiz",
-  "description": "Um quiz rápido sobre o mundo do Typescript",
-  "questions": [
+,
     {
-      "image": "https://media.giphy.com/media/lptIayuGHV9Utu3iTv/giphy.gif",
-      "title": "TypeScript é um ____________ framework.",
-      "description": "Qual a diferença de window e global?",
-      "answer": 1,
-      "alternatives": [
-        "Licensed",
-        "Open-sourced",
-        "Commercial",
-        "Both, A and B"
-      ]
-    },
-    {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "TypeScript é um superconjunto tipado de __________.",
-      "description": "Qual a forma antiga de trabalhar com AJAX na Web?",
-      "answer": 2,
-      "alternatives": ["C#", "Java", "JavaScript", "ReactJS"]
-    },
-    {
-      "image": "https://media.giphy.com/media/3oEjHWbXcpeKhTktXi/giphy.gif",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Um Arquivo TypeScript é compilado em ________.",
       "description": "Qual a forma antiga de trabalhar com AJAX na Web?",
       "answer": 0,
@@ -35,14 +12,14 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "O TypeScript pode ser usado para escrever aplicativos do lado do servidor e do lado do cliente.",
       "description": "Qual a forma antiga de trabalhar com AJAX na Web?",
       "answer": 0,
       "alternatives": ["Verdade", "Falso", "Não se aplica", "N.D.A"]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "O comando __________ é usado para gerar um arquivo JavaScript a partir de um arquivo TypeScript.",
       "description": "",
       "answer": 1,
@@ -54,7 +31,7 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual das seguintes declarações declara uma variável no TypeScript?",
       "description": "",
       "answer": 3,
@@ -66,14 +43,14 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Quais dos seguintes são tipos primitivos com suporte no TypeScript?",
       "description": "",
       "answer": 3,
       "alternatives": ["number", "string", "boolean", "Todas as alternativas"]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual das seguintes é uma variável de tipo de união válida?",
       "description": "",
       "answer": 1,
@@ -85,7 +62,7 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual das opções a seguir é uma tupla válida?",
       "description": "",
       "answer": 0,
@@ -97,7 +74,7 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Um 'Type', no TypeScript, é obtido usando qual das seguintes sintaxes?",
       "description": "",
       "answer": 2,
@@ -109,7 +86,7 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual será a saída do seguinte trecho de código?\n\nlet arr = [10, 20, 30, 40];\n      for(var val of arr) {\n\n  console.log(val);\n  }",
       "description": "",
       "answer": 1,
@@ -121,7 +98,7 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual das opções a seguir é uma função de seta válida?",
       "description": "",
       "answer": 3,
@@ -133,7 +110,7 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "O parâmetro 'rest' em uma função é usado ​​quando _______.",
       "description": "",
       "answer": 3,
@@ -145,7 +122,7 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual das afirmações a seguir é VERDADEIRA?",
       "description": "",
       "answer": 3,
@@ -157,7 +134,7 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Quais das opções a seguir são modificadores de dados válidos no TypeScript?",
       "description": "",
       "answer": 3,
@@ -169,14 +146,14 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual das seguintes palavras-chaves é usada para declarar um módulo?",
       "description": "",
       "answer": 0,
       "alternatives": ["export", "namespace", "type", "declare"]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual dos itens a seguir declara um namespace?",
       "description": "",
       "answer": 2,
@@ -188,7 +165,7 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual dos seguintes comandos é usado para compilar um módulo?",
       "description": "",
       "answer": 2,
@@ -200,14 +177,14 @@
       ]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual arquivo de configuração é necessário para compilar todo o projeto TypeScript?",
       "description": "",
       "answer": 1,
       "alternatives": ["tsconfig.js", "tsconfig.json", "web.config", "app.json"]
     },
     {
-      "image": "https://source.unsplash.com/200x200/?react,reactjs,javascript",
+      "image": "https://source.unsplash.com/400x400/?react,reactjs,javascript",
       "title": "Qual das afirmações a seguir é VERDADEIRA?",
       "description": "",
       "answer": 3,
@@ -218,20 +195,3 @@
         "Todas as alternativas."
       ]
     }
-  ],
-  "external": [
-    "https://aluraquiz-css.omariosouto.vercel.app/",
-    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
-  ],
-  "theme": {
-    "colors": {
-      "primary": "#222222",
-      "secondary": "#e89c3f",
-      "mainBg": "#213f4e",
-      "contrastText": "#FFFFFF",
-      "wrong": "#FF5722",
-      "success": "#4CAF50"
-    },
-    "borderRadius": "4px"
-  }
-}
