@@ -13,6 +13,14 @@ export type QuizState = 'LOADING' | 'LOADED' | 'FAIL' | 'RESULT' | undefined
 /**
  * Interface to quiz page question
  */
+export interface IQuestionKeys {
+  image: string
+  title: string
+  description: string
+  answer: number
+  alternatives: string[]
+}
+
 export interface IQuestion {
   question: {
     image: string
